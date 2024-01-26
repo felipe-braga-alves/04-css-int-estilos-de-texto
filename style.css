@@ -1,0 +1,98 @@
+html {
+    font-size: 18px;
+    padding: 50px;
+}
+
+/* -------------------------------------------------*/
+/* -------------------- FUNDOS ---------------------*/
+/* -------------------------------------------------*/
+
+.fundo-alinhamento {
+    background-color: aqua;
+}
+
+.fundo-transform {
+    background-color: antiquewhite;
+}
+
+.fundo-decorado {
+    background-color: greenyellow;
+}
+
+.fundo-letter-spacing {
+    background-color: yellow;
+}
+
+.fundo-sombra-texto {
+    background-color: rgb(238, 157, 65);
+}
+
+/* -------------------------------------------------*/
+/* ----------------- ALINHAMENTO -------------------*/
+/* -------------------------------------------------*/
+
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
+
+.alinhado-justificado {
+    text-align: justify;
+}
+
+/* -------------------------------------------------*/
+/* ----------------- TRANSFORMAÇÃO -----------------*/
+/* -------------------------------------------------*/
+
+.maiuscula {
+    text-transform: uppercase;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+.capitalizado {
+    text-transform: capitalize;
+}
+
+/* -------------------------------------------------*/
+/* -------------------- DECORAÇÃO ------------------*/
+/* -------------------------------------------------*/
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.nada {
+    text-decoration: none;
+}
+
+/* -------------------------------------------------*/
+/* --------------- LETTER SPACING ------------------*/
+/* -------------------------------------------------*/
+
+.altura-entre-linhas {
+    line-height: 50px;
+}
+
+/* -------------------------------------------------*/
+/* --------------- SOMBRA NO TEXTO -----------------*/
+/* -------------------------------------------------*/
+
+/* para posionar a sombra deve-se informar os valores na ordem: vertical > horizontal > opacidade (quando maior o valor mais opaca a sombra) */
+
+.sombra-texto {
+    text-shadow: 15px 5px 2px;
+}
